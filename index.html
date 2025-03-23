@@ -418,86 +418,82 @@ new BeforeAfter({
 
 
 
-
-
-<!-- Gaussian Grouping vs Ours -->
-<section class="hero is-light is-small">
-  <div class="columns is-centered">
-  <div class="column is-three-fifths">
+<!-- Video carousel -->
+<section class="hero is-small">
   <div class="hero-body">
-    <div class="content">
-      <div class="columns is-centered">
-        <div class="column is-one-third">
-          <div class="video-compare-container" id="fsgs1">
-            <video class="video" id="fsgsvideo1" loop playsinline autoPlay muted src="./static/videos/grouping_ours_recon1.mp4" onplay="resizeAndPlay(this)" height="50%"></video>
-            <canvas height=0 class="videoMerge" id="fsgsvideo1Merge" style="border-radius: 2px;"></canvas>
-          </div>
+    <div class="container is-max-desktop">
+      <!-- <h2 class="title is-4">Comparison</h2> -->
+
+      <center><div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/grouping_ours_recon1.mp4"
+            type="video/mp4">
+          </video>
         </div>
-        
-        <div class="column is-one-third">
-          <div class="video-compare-container" id="fsgs2">
-            <video class="video" id="fsgsvideo2" loop playsinline autoPlay muted src="./static/videos/grouping_ours_recon2.mp4" onplay="resizeAndPlay(this)" height="50%"></video>
-            <canvas height=0 class="videoMerge" id="fsgsvideo2Merge" style="border-radius: 2px;"></canvas>
-          </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/grouping_ours_recon2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/grouping_ours_recon3.mp4"
+            type="video/mp4">
+          </video>
         </div>
 
-        <div class="column is-one-third">
-          <div class="video-compare-container" id="materialsDiv3fsgs">
-            <video class="video" id="fsgsvideo3" loop playsinline autoPlay muted src="./static/videos/grouping_ours_recon3.mp4" onplay="resizeAndPlay(this)" height="50%"></video>
-            <canvas height=0 class="videoMerge" id="fsgsvideo3Merge" style="border-radius: 2px;"></canvas>
-          </div>
-        </div>
-      </div>
-      <p class="subtitle has-text-centered">
-        <!-- Please click the videos for better view. -->
-        <b>Visual reconstruction comparison with Gaussian Grouping. </b>Please click the videos and drag the slider for better comparisons. 
-      </p>
+      </div></center>
+      <h2 class="content has-text-centered">
+        Visual reconstruction comparison with Gaussian Grouping.
     </div>
   </div>
-</div>
-</div>
 </section>
+<!-- End video carousel -->
 
 
 
 
-<!-- Gaussian Grouping vs Ours -->
-<section class="hero is-light is-small">
-  <div class="columns is-centered">
-  <div class="column is-three-fifths">
+<!-- Video carousel -->
+<section class="hero is-small">
   <div class="hero-body">
-    <div class="content">
-      <div class="columns is-centered">
-        <div class="column is-one-third">
-          <div class="video-compare-container" id="fsgs1">
-            <video class="video" id="fsgsvideo1" loop playsinline autoPlay muted src="./static/videos/grouping_ours_seg1.mp4" onplay="resizeAndPlay(this)" height="50%"></video>
-            <canvas height=0 class="videoMerge" id="fsgsvideo1Merge" style="border-radius: 2px;"></canvas>
-          </div>
+    <div class="container is-max-desktop">
+      <!-- <h2 class="title is-4">Comparison</h2> -->
+
+      <center><div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/grouping_ours_seg1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/grouping_ours_seg2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/grouping_ours_seg3.mp4"
+            type="video/mp4">
+          </video>
         </div>
 
-        <div class="column is-one-third">
-          <div class="video-compare-container" id="fsgs2">
-            <video class="video" id="fsgsvideo2" loop playsinline autoPlay muted src="./static/videos/grouping_ours_seg2.mp4" onplay="resizeAndPlay(this)" height="50%"></video>
-            <canvas height=0 class="videoMerge" id="fsgsvideo2Merge" style="border-radius: 2px;"></canvas>
-          </div>
-        </div>
-
-        <div class="column is-one-third">
-          <div class="video-compare-container" id="materialsDiv3fsgs">
-            <video class="video" id="fsgsvideo3" loop playsinline autoPlay muted src="./static/videos/grouping_ours_seg3.mp4" onplay="resizeAndPlay(this)" height="50%"></video>
-            <canvas height=0 class="videoMerge" id="fsgsvideo3Merge" style="border-radius: 2px;"></canvas>
-          </div>
-        </div>
-      </div>
-      <p class="subtitle has-text-centered">
-        <!-- Please click the videos for better view. -->
-        <b>Visual segmentation comparison with Gaussian Grouping. </b>Please click the videos and drag the slider for better comparisons. 
-      </p>
+      </div></center>
+      <h2 class="content has-text-centered">
+        Visual reconstruction comparison with Gaussian Grouping.
     </div>
   </div>
-</div>
-</div>
 </section>
+<!-- End video carousel -->
 
 
 

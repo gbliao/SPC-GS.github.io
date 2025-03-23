@@ -36,8 +36,6 @@ body {
 
 }
 
-
-
 .publication-banner video {
   position: relative;
   left: auto;
@@ -128,6 +126,15 @@ body {
 
 .results-carousel video {
   margin: 0;
+}
+
+
+.slider-pagination .slider-page {
+  background: #000000;
+}
+
+.eql-cntrb { 
+  font-size: smaller;
 }
 
 
